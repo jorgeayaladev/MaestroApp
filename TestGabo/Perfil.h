@@ -1,117 +1,87 @@
 #pragma once
+
 #include <iostream>
-#include <sstream>
-#include "InventoryYCarrito.h"
-#include "MetodoPago.h"
 #include "Direccion.h"
+#include "UsuariosHerencia.h"
+
 using namespace std;
 
-//T1 DOUBLE, T2 STRING, T3 USUARIO*
 template<typename T1, typename T2, typename T3>
 class Perfil {
 private:
-    T3 Usuario;
-    T1 Saldo;
-	Lista<Producto<string, int, T1>*>* lst_Deseos;
-	Lista<Review<string, int, T1>*>* lst_Reviews;
-	Lista<MetodoPago<string,int, float>*>* lst_MetodosPago;
-	ShoppingCart<string, int, T1>* carritoCompras;
-	Direccion* direccionEnvio;
+    Usuario<T3, T2>* usuario;
+    Direccion* direccion;
+    T1 saldo;
+
 public:
-    Perfil(T3 Usuario, T1 Saldo, Lista<Producto<string, int, T1>*>* productosDeInventario);
-    T2 toString();
-    void setUsuario(T3 Usuario);
-    T3 getUsuario();
-    void setSaldo(T1 Saldo);
+    Perfil();
+    Perfil(Usuario<T3, T2>* usuario_, Direccion* direccion_, T1 saldo_);
+    ~Perfil();
+
+    void setUsuario(Usuario<T3, T2>* usuario_);
+    Usuario<T3, T2>* getUsuario();
+    void setDireccion(Direccion* direccion_);
+    Direccion* getDireccion();
+    void setSaldo(T1 saldo_);
     T1 getSaldo();
-	Direccion* getDireccionEnvio() { return direccionEnvio; }
-	void setDireccionEnvio(Direccion* direccion) { this->direccionEnvio = direccion; }
-	ShoppingCart<string, int, T1>* getCarritoCompras() { return carritoCompras; }
-	Lista<Review<string, int, T1>*>* getLst_Reviews() { return lst_Reviews; }
-	Lista<MetodoPago<string, int, float>*>* getMetodosPago() { return lst_MetodosPago; }
-    
-    void reasignarCarrito(Inventory<string, int, T1>* inventario)
-    {
-        this->carritoCompras = new ShoppingCart<string, int, T1>(inventario->getLst_Productos());
-    }
 
-    void añadirReview(Review<string, int, T1>* review) {
-        if (!lst_Reviews) {
-            lst_Reviews = new Lista<Review<string, int, T1>*>();
-        }
-		//Añadir condicion de si review ya se aplico a un producto, aplicar recursividad
-        lst_Reviews->agregaFinal(review);
-	}
-
-	Lista<Producto<string, int, T1>*>* getLst_Deseos() { return lst_Deseos; }
-    void agregarProductoDeseo(Producto<string, int, T1>* producto) {
-        if (!lst_Deseos) {
-            lst_Deseos = new Lista<Producto<string, int, T1>*>();
-        }
-        //Añadir condicion de si producto no existe en el inventario, o si ya esta en la lista de deseos, aplicar recursividad
-        lst_Deseos->agregaFinal(producto);
-    }
-
-    void agregarProductoCarrito(Producto<string, int, T1>* producto) {
-        if (!carritoCompras) {
-            carritoCompras = new ShoppingCart<string, int, T1>();
-        }
-        //Añadir condicion de si producto no existe en el inventario, o si ya esta en el carrito, aplicar recursividad
-		carritoCompras->getProductos()->agregaFinal(producto->getID());
-	}
-
-    void agregarMetodoPago(MetodoPago<string, int, float>* metodo) {
-        if (!lst_MetodosPago) {
-            lst_MetodosPago = new Lista<MetodoPago<string, int, float>*>();
-        }
-        lst_MetodosPago->agregaFinal(metodo);
-	}
-
-    void eliminarMetodoPago(int indice) {
-        if (lst_MetodosPago && indice >= 0 && indice < lst_MetodosPago->longitud()) {
-            lst_MetodosPago->eliminaPos(indice);
-        }
-	}
+    void mostrarPerfil();
+    T2 nombreCompleto();
 };
 
 template<typename T1, typename T2, typename T3>
-Perfil<T1, T2, T3>::Perfil(T3 Usuario, T1 Saldo, Lista<Producto<string, int, T1>*>* productosDeInventario) {
-    this->Usuario = Usuario;
-    this->Saldo = Saldo;
-    this->carritoCompras = new ShoppingCart<string, int, T1>(productosDeInventario);
-    this->lst_Reviews = new Lista<Review<string, int, T1>*>;
-	this->lst_Deseos = new Lista<Producto<string, int, T1>*>();
-    this->lst_MetodosPago = new Lista<MetodoPago<string,int, float>*>;
+Perfil<T1, T2, T3>::Perfil() {
+    this->usuario = nullptr;
+    this->direccion = nullptr;
+    this->saldo = 0;
 }
 
 template<typename T1, typename T2, typename T3>
-T2 Perfil<T1, T2, T3>::toString() {
-    stringstream s;
-    s << Usuario->toString();
-    s << "Saldo: " << this->Saldo << endl;
-    s << "------------------------" << endl;
-	//Falta mostrar lista de deseos y reviews y metodos de pago y carrito de compras
-    return s.str();
+Perfil<T1, T2, T3>::Perfil(Usuario<T3, T2>* usuario_, Direccion* direccion_, T1 saldo_) {
+    this->usuario = usuario_;
+    this->direccion = direccion_;
+    this->saldo = saldo_;
 }
 
 template<typename T1, typename T2, typename T3>
-void Perfil<T1, T2, T3>::setUsuario(T3 Usuario) {
-    this->Usuario = Usuario;
+Perfil<T1, T2, T3>::~Perfil() {
 }
 
 template<typename T1, typename T2, typename T3>
-T3 Perfil<T1, T2, T3>::getUsuario() {
-    return this->Usuario;
+void Perfil<T1, T2, T3>::setUsuario(Usuario<T3, T2>* usuario_) { this->usuario = usuario_; }
+
+template<typename T1, typename T2, typename T3>
+Usuario<T3, T2>* Perfil<T1, T2, T3>::getUsuario() { return this->usuario; }
+
+template<typename T1, typename T2, typename T3>
+void Perfil<T1, T2, T3>::setDireccion(Direccion* direccion_) { this->direccion = direccion_; }
+
+template<typename T1, typename T2, typename T3>
+Direccion* Perfil<T1, T2, T3>::getDireccion() { return this->direccion; }
+
+template<typename T1, typename T2, typename T3>
+void Perfil<T1, T2, T3>::setSaldo(T1 saldo_) { this->saldo = saldo_; }
+
+template<typename T1, typename T2, typename T3>
+T1 Perfil<T1, T2, T3>::getSaldo() { return this->saldo; }
+
+template<typename T1, typename T2, typename T3>
+void Perfil<T1, T2, T3>::mostrarPerfil() {
+    cout << "========== PERFIL ==========" << endl;
+    if (this->usuario != nullptr) {
+        cout << this->usuario->toString();
+    }
+    if (this->direccion != nullptr) {
+        cout << "Direccion: " << this->direccion->toString() << endl;
+    }
+    cout << "Saldo: S/." << this->saldo << endl;
+    cout << "=============================" << endl;
 }
 
 template<typename T1, typename T2, typename T3>
-void Perfil<T1, T2, T3>::setSaldo(T1 Saldo) {
-    this->Saldo = Saldo;
+T2 Perfil<T1, T2, T3>::nombreCompleto() {
+    if (this->usuario != nullptr) {
+        return this->usuario->getNombre();
+    }
+    return "";
 }
-
-template<typename T1, typename T2, typename T3>
-T1 Perfil<T1, T2, T3>::getSaldo() {
-    return this->Saldo;
-}
-
-

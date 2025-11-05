@@ -1,538 +1,414 @@
 #include <iostream>
-#include <conio.h>
-#include "Perfil.h"
+#include <string>
+#include <cstdlib>
+#include <limits>
+#include "Usuario.h"
 #include "UsuariosHerencia.h"
-#include <fstream>
-#include "MetodoPago.h"
+#include "Perfil.h"
+#include "Producto.h"
+#include "Proveedor.h"
+#include "Review.h"
+#include "InventoryYCarrito.h"
+#include "FiltrosDeProductos.h"
 #include "Pago.h"
+#include "MetodoPago.h"
+#include "Voucher.h"
+#include "Boleta.h"
+#include "Factura.h"
 
 using namespace std;
-using namespace System;
 
-void Ubicar(int x, int y) {
-	Console::SetCursorPosition(x, y);
+void limpiarPantalla() {
+    system("cls");
 }
 
-void AjustarTamanioPantalla(int ancho, int alto) {
-	Console::SetWindowSize(ancho, alto);
+void pausar() {
+    cout << endl << "Presione ENTER para continuar...";
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cin.get();
 }
 
-int MenuPrincipal() {
-	Console::BackgroundColor = ConsoleColor::DarkCyan;
-	Console::Clear();
-	Console::ForegroundColor = ConsoleColor::White;
-	int opc = 0;
-	cout << "====================SODIMAC====================" << endl;
-	cout << "1. Iniciar Sesion" << endl;
-	cout << "2. Registrarse" << endl;
-	cout << "3. Visualizar Perfil" << endl;
-	cout << "4. Buscar Productos" << endl;
-	cout << "5. Listar Productos" << endl;
-	cout << "6. Registrar Review" << endl;
-	cout << "7. Ver review" << endl;
-	cout << "8. Agregar al carrito" << endl;
-	cout << "9. Ver carrito" << endl;
-	cout << "10. Comprar productos" << endl;
-	cout << "11. Salir" << endl;
-	cout << "================================================" << endl;
-	cout << "Ingrese una opcion: "; cin >> opc;
-	if (opc > 0 && opc < 12) return opc;
-	else {
-		MenuPrincipal();
-	}
+void mostrarMenuPrincipal() {
+    cout << "========================================" << endl;
+    cout << "  SISTEMA DE VENTA DE MATERIALES DE" << endl;
+    cout << "           CONSTRUCCION" << endl;
+    cout << "========================================" << endl;
+    cout << "1. Gestionar Productos" << endl;
+    cout << "2. Gestionar Carrito de Compras" << endl;
+    cout << "3. Realizar Compra" << endl;
+    cout << "4. Ver Perfil de Usuario" << endl;
+    cout << "5. Filtrar Productos" << endl;
+    cout << "6. Salir" << endl;
+    cout << "========================================" << endl;
+    cout << "Seleccione una opcion: ";
 }
 
-void IniciarSesion(Usuario<int, string>* user) {
-	system("cls");
-	string email, contraseña;
-	cout << "INICIAR SESION" << endl;
-	cout << "Ingresa tu eMail: "; cin >> email;
-	cout << "Ingresa tu Contraseña: "; cin >> contraseña;
-	if ((email != user->getEMail() || contraseña != user->getPassword()) || user == NULL) {
-		cout << "DATOS INCORRECTOS\nIngrese de nuevo sus datos";
-		_getch();
-		IniciarSesion(user);
-	}
-	else {
-		cout << "INICIO DE SESION CORRECTO";
-		_getch();
-	}
+void mostrarMenuProductos() {
+    cout << endl << "====== GESTION DE PRODUCTOS ======" << endl;
+    cout << "1. Ver todos los productos" << endl;
+    cout << "2. Ver detalles de un producto" << endl;
+    cout << "3. Agregar review a un producto" << endl;
+    cout << "4. Volver al menu principal" << endl;
+    cout << "===================================" << endl;
+    cout << "Seleccione una opcion: ";
 }
 
-void RegistrarUsuario(Usuario<int, string>*& user, Perfil<double, string, Usuario<int, string>*>*& perfil) {
-	system("cls");
-	int tipo;
-	string nickname, email, contraseña, nombreCompleto, DNI, telefono, RUC;
-	cout << "REGISTRO DE USUARIO" << endl;
-	cout << "Ingresa tu Nickname: "; cin >> nickname;
-	cout << "\nIngresa tu eMail: "; cin >> email;
-	cout << "\nIngresa tu contraseña: "; cin >> contraseña;
-	cout << "\nQue tipo de Cuenta quieres registrar?" << endl;
-	do {
-		cout << "- Ingresa 1 si registras una Cuenta Personal\n- Ingresa 2 si registras una Cuenta Empresarial" << endl;
-		cin >> tipo;
-	} while (tipo < 1 || tipo > 2);
-
-	ofstream archivo("usuario.txt", ios::app); 
-
-	if (tipo == 1) {
-		cin.ignore();
-		cout << "Ingresa tu Nombre Completo: "; getline(cin, nombreCompleto);
-		cout << "\nIngresa tu DNI: "; cin >> DNI;
-		cout << "\nIngresa tu telefono personal: "; cin >> telefono;
-		user = new UsuarioBasico<int, string>(001, nickname, email, contraseña, nombreCompleto, DNI, telefono);
-		perfil = new Perfil<double, string, Usuario<int, string>*>(user, 500.00, NULL);
-
-		archivo << "Tipo: Personal\n";
-		archivo << "Nickname: " << nickname << "\n";
-		archivo << "Email: " << email << "\n";
-		archivo << "Contraseña: " << contraseña << "\n";
-		archivo << "Nombre Completo: " << nombreCompleto << "\n";
-		archivo << "DNI: " << DNI << "\n";
-		archivo << "Telefono: " << telefono << "\n";
-		archivo << "--------------------------\n";
-	}
-	else {
-		cin.ignore();
-		cout << "Ingresa el nombre de la Empresa: "; cin >> nombreCompleto;
-		cout << "\nIngresa tu RUC: "; cin >> RUC;
-		user = new UsuarioEmpresa<int, string>(001, nickname, email, contraseña, nombreCompleto, RUC);
-		perfil = new Perfil<double, string, Usuario<int, string>*>(user, 500.00, NULL);
-
-		archivo << "Tipo: Empresarial\n";
-		archivo << "Nickname: " << nickname << "\n";
-		archivo << "Email: " << email << "\n";
-		archivo << "Contraseña: " << contraseña << "\n";
-		archivo << "Nombre Empresa: " << nombreCompleto << "\n";
-		archivo << "RUC: " << RUC << "\n";
-		archivo << "--------------------------\n";
-	}
-
-	archivo.close();
+void mostrarMenuCarrito() {
+    cout << endl << "====== CARRITO DE COMPRAS ======" << endl;
+    cout << "1. Ver carrito" << endl;
+    cout << "2. Agregar producto al carrito" << endl;
+    cout << "3. Eliminar producto del carrito" << endl;
+    cout << "4. Modificar cantidad de un producto" << endl;
+    cout << "5. Vaciar carrito" << endl;
+    cout << "6. Volver al menu principal" << endl;
+    cout << "=================================" << endl;
+    cout << "Seleccione una opcion: ";
 }
 
-void RegistrarProducto(int id_, string nombre_, string tipo_, string color_, string material_, string codTienda_, int stock_,
-	double alto_, double ancho_, double precio_, bool descuentoAct, int descuentoPrcnt_, Proveedor<string, int>* proveedor)
-{
-
-	ofstream archivo("inventario.txt", ios::app);
-
-	archivo << "=================PRODUCTO REGISTRADO=================\n";
-	archivo << "Proovedor: " << proveedor->getNombre() << "\n";
-	archivo << "Empresa: " << proveedor->getEmpresa() << "\n";
-	archivo << "ID Trabajador: " << proveedor->getIdTrabajador() << "\n";
-	archivo << "ID producto: " << id_ << "\n";
-	archivo << "Nombre: " << nombre_ << "\n";
-	archivo << "Tipo: " << tipo_ << "\n";
-	archivo << "Color: " << color_ << "\n";
-	archivo << "Material: " << material_ << "\n";
-	archivo << "Codigo de Tienda: " << codTienda_ << "\n";
-	archivo << "Stock: " << stock_ << "\n";
-	archivo << "Alto (m): " << alto_ << "\n";
-	archivo << "Ancho (m): " << ancho_ << "\n";
-	archivo << "Precio (m): " << precio_ << "\n";
-	archivo << "¿Descuento Activo?: " << descuentoAct << "\n";
-	if (descuentoAct) archivo << "Descuento en porcentaje: " << descuentoPrcnt_ << "\n\n";
-
-}
-
-void GenerarInventarioInicial(Inventory<string, int, double>* inventario) {
-	
-	Proveedor<string, int>* pro1 = new Proveedor<string, int>("Juan Perez", "Constructora de las Casas", 1001);
-	Proveedor<string, int>* pro2 = new Proveedor<string, int>("Luis Gomez", "Materiales S.A.", 9065);
-
-	int id, stock, descuentoPrcnt, tipo;
-	double alto, ancho, precio;
-	string nombre, color, material, codTienda;
-
-	id = 001001; nombre = "Cemento Sol"; color = "Gris"; material = "Cemento"; codTienda = "T001"; stock = 50; alto = 0.30; ancho = 0.20; precio = 25.00; descuentoPrcnt = 10, tipo = 1;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro1));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro1);
-
-	id = 001003; nombre = "Pintura Viniltex"; color = "Blanco"; material = "Vinilo"; codTienda = "T003"; stock = 200; alto = 3.5; ancho = 0.30; precio = 75.00; descuentoPrcnt = 15, tipo = 2;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2);
-
-	id = 001004; nombre = "Ladrillo Rojo"; color = "Rojo"; material = "Arcilla"; codTienda = "T005"; stock = 500; alto = 0.20; ancho = 0.10; precio = 3.00; descuentoPrcnt = 0, tipo = 3;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, false, descuentoPrcnt, pro1));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, false, descuentoPrcnt, pro1);
-
-	id = 001005; nombre = "Madera Triplay"; color = "Marron"; material = "Madera"; codTienda = "T002"; stock = 150; alto = 2.5; ancho = 1.2; precio = 120.00; descuentoPrcnt = 5, tipo = 4;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2);
-
-	id = 001006; nombre = "Hierro Corrugado"; color = "Gris"; material = "Hierro"; codTienda = "T004"; stock = 300; alto = 6.0; ancho = 0.02; precio = 50.00; descuentoPrcnt = 0, tipo = 5;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, false, descuentoPrcnt, pro1));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, false, descuentoPrcnt, pro1);
-
-	id = 001007; nombre = "Yeso Laminado"; color = "Blanco"; material = "Yeso"; codTienda = "T006"; stock = 80; alto = 2.4; ancho = 1.2; precio = 40.00; descuentoPrcnt = 20, tipo = 6;
-
-	inventario->agregarProducto(new Producto<string, int, double>(id, nombre, tipo, color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2));
-
-	RegistrarProducto(id, nombre, inventario->getLst_Productos()->obtenerFinal()->especificarTipo(tipo), color, material, codTienda, stock, alto, ancho, precio, true, descuentoPrcnt, pro2);
-	
-}
-
-void VisualizarPerfil(Perfil<double, string, Usuario<int, string>*>* perfil) {
-	system("cls");
-	if (perfil == nullptr) {
-		cout << "No has iniciado sesion. Por favor, inicia sesion para ver tu perfil." << endl;
-		_getch();
-	}
-	else {
-		cout << "PERFIL DE USUARIO" << endl;
-		cout << perfil->toString();
-		_getch();
-	}
-}
-
-
-int validarValor(string comentario, int min, int max)
-{
-
-	int x;
-
-	cout << comentario; cin >> x;
-
-	if (x < min || x > max) {
-		cout << "Ups! Valor equivocado detectado!\n";
-		validarValor(comentario, min, max);
-	}
-	else return x;
-
-}
-
-Review<string, int, double>* sumarReviews(Producto<string, int, double>* producto, Perfil<double, string, Usuario<int, string>*>* prfl)
-{
-
-	int calificacion;
-	string comentario;
-
-	calificacion = validarValor("Introduzca la calificacion (1-5): ", 1, 5); cin.ignore();
-	cout << "Escriba su comentario: ";  getline(cin, comentario);
-
-	Review<string, int, double>* review = new Review<string, int, double>(calificacion, prfl->getUsuario()->getId(), comentario, prfl->getUsuario()->getNombre());
-
-	producto->nuevaReview(calificacion, prfl->getUsuario()->getId(), comentario, prfl->getUsuario()->getNombre());
-
-	return review;
-
-}
-
-void buscarProductoPorIDParaReview(Inventory<string, int, double>* inventario, Perfil<double, string, Usuario<int, string>*>* prfl)
-{
-	system("cls");
-	int id;
-
-	cout << "Ingrese el ID del producto al que desea añadir una review: "; cin >> id;
-
-	int x = 0;
-
-	for(int i = 0; i < inventario->getLst_Productos()->longitud(); ++i)
-		if (inventario->getLst_Productos()->obtenerPos(i)->getID() == id) {
-			x = 1;
-			cout << "Producto encontrado: " << endl;
-			inventario->getLst_Productos()->obtenerPos(i)->mostrarProducto();
-			cout << "Ingrese su review para este producto: " << endl;
-			prfl->añadirReview(sumarReviews(inventario->getLst_Productos()->obtenerPos(i), prfl));
-			cout << "Review añadida con exito!" << endl;
-		}
-
-	system("pause>0");
-	system("cls");
-}
-
-void aniadirACarrito(Perfil<double, string, Usuario<int, string>*>* prfl, Inventory<string, int, double>* inventario)
-{
-
-	system("cls");
-
-	int id;
-
-	cout << "Ingrese el ID del producto al que desea añadir una review: "; cin >> id;
-
-	int x = 0;
-
-	for (int i = 0; i < inventario->getLst_Productos()->longitud(); ++i)
-		if (inventario->getLst_Productos()->obtenerPos(i)->getID() == id) {
-			x = 1;
-			cout << "Producto encontrado: " << endl;
-			inventario->getLst_Productos()->obtenerPos(i)->mostrarProducto();
-			prfl->agregarProductoCarrito(inventario->getLst_Productos()->obtenerPos(i));
-		}
-
-	system("pause>0");
-	system("cls");
-
-}
-
-void verReviews(Perfil<double, string, Usuario<int, string>*>* prfl)
-{
-
-	system("cls");
-
-	for(int i = 0; i < prfl->getLst_Reviews()->longitud(); ++i)
-	{
-		if (prfl->getLst_Reviews()->longitud() > 0)
-		{
-
-			cout << "Review Nro " << i + 1 << ": " << endl;
-			prfl->getLst_Reviews()->obtenerPos(i)->verReview();
-
-		}
-		else cout << "No hay reviews para mostrar" << endl;
-	}
-
-	system("pause>0");
-	system("cls");
-
-}
-
-void BuscarProductos(Inventory<string, int, double>* inventario) {
-
-	int x;
-
-	system("cls");
-
-	cout << "MENU DE BUSQUEDA DE PRODUCTOS" << endl << endl;
-
-	cout << "1. Buscar por nombre de proveedor: " << endl;
-	cout << "2. Buscar por tipo: " << endl;
-	cout << "3. Maximo precio: " << endl;
-	cout << "4. Buscar por calificacion: " << endl;
-	cout << "5. Volver al menu principal" << endl;
-
-	x = validarValor("- Ingrese una opcion: ", 1, 5);
-
-	string texto;
-	int entero;
-	double doble;
-
-	switch (x)
-	{
-	case 1:
-
-
-		cout << endl << "BUSCAR POR NOMBRE DE PROVEEDOR: "; cin.ignore(); getline(cin, texto);
-
-		system("cls");
-		inventario->filtrarPorEmpresa(texto);
-		system("pause>0");
-
-		break;
-
-	case 2:
-
-		cout << endl << "BUSCAR POR TIPO: "; cin.ignore(); getline(cin, texto);
-
-		system("cls");
-		inventario->filtrarPorTipo(texto);
-		system("pause>0");
-
-		break;
-		
-	case 3:
-
-		cout << endl << "BUSCAR POR MAXIMO PRECIO: "; cin.ignore(); cin >> doble;
-		system("cls");
-		inventario->filtrarPorPrecio(doble);
-		system("pause>0");
-		break;
-
-	case 4:
-
-		cout << endl << "BUSCAR POR CALIFICACION: "; cin.ignore(); cin >> entero;
-		system("cls");
-		inventario->filtrarPorCalificacion(entero);
-		system("pause>0");
-		break;
-
-	case 5:
-		break;
-
-	}
-
-}
-
-void verCarrito(Perfil<double, string, Usuario<int, string>*>* prfl)
-{
-	system("cls");
-	prfl->getCarritoCompras()->mostrarProductos();
-	cout << "Total a pagar: S/." << prfl->getCarritoCompras()->calcularMonto() << endl;
-	system("pause>0");
-	system("cls");
-}
-
-void comprarProductos(Perfil<double, string, Usuario<int, string>*>* prfl)
-{
-	system("cls");
-	if (!prfl) {
-		cout << "No hay perfil activo.\n";
-		system("pause>0");
-		system("cls");
-		return;
-	}
-
-	auto carrito = prfl->getCarritoCompras();
-	double total = carrito->calcularMonto();
-
-	if (total <= 0) {
-		cout << "El carrito esta vacio.\n";
-		_getch();
-		system("pause>0");
-		system("cls");
-		return;
-	}
-
-	cout << "TOTAL DE LA COMPRA: S/. " << total << endl;
-	cout << "Saldo disponible: S/. " << prfl->getSaldo() << endl;
-
-	if (total > prfl->getSaldo()) {
-		cout << "Saldo insuficiente.\n";
-		system("pause>0");
-		system("cls");
-		return;
-	}
-
-	int usarExistente = 0;
-	auto lstMet = prfl->getMetodosPago();
-	if (lstMet && lstMet->longitud() > 0) {
-		cout << "\nMetodos de pago guardados:\n";
-		for (int i = 0; i < lstMet->longitud(); ++i) {
-			cout << i + 1 << ". " << lstMet->obtenerPos(i)->getMetodoPago()
-				<< " • Tarjeta ****"
-				<< (lstMet->obtenerPos(i)->getNumeroTarjeta().size() >= 4
-					? lstMet->obtenerPos(i)->getNumeroTarjeta().substr(lstMet->obtenerPos(i)->getNumeroTarjeta().size() - 4)
-					: lstMet->obtenerPos(i)->getNumeroTarjeta())
-				<< endl;
-		}
-		cout << "¿Usar uno existente? (1=Si / 0=No): ";
-		cin >> usarExistente;
-	}
-
-	MetodoPago<string, int, float>* metodoSeleccionado = nullptr;
-
-	if (usarExistente == 1 && lstMet && lstMet->longitud() > 0) {
-		int idx;
-		cout << "Seleccione indice: ";
-		cin >> idx;
-		if (idx < 1 || idx > lstMet->longitud()) {
-			cout << "Indice invalido.\n";
-			system("pause>0");
-			system("cls");
-			return;
-		}
-		metodoSeleccionado = lstMet->obtenerPos(idx - 1);
-		metodoSeleccionado->setMonto(static_cast<float>(total));
-	}
-	else {
-		cin.ignore();
-		string nombreMetodo, tarjeta, cvv, fecha;
-		int cuotas;
-		cout << "Metodo (Ej: VISA / MASTERCARD / EFECTIVO): "; getline(cin, nombreMetodo);
-		cout << "Numero de tarjeta (o identificador): "; getline(cin, tarjeta);
-		cout << "CVV/Codigo: "; getline(cin, cvv);
-		cout << "Fecha expiracion (MM/AA o '-'): "; getline(cin, fecha);
-		cout << "Cuotas (1 si no aplica): "; cin >> cuotas;
-
-		auto* nuevo = new MetodoPago<string, int, float>(nombreMetodo, tarjeta, cvv, fecha, static_cast<float>(total), cuotas);
-		if (!nuevo->validarTarjeta() || !nuevo->validarCodigo()) {
-			cout << "Datos de metodo de pago invalidos.\n";
-			delete nuevo;
-			system("pause>0");
-			system("cls");
-			return;
-		}
-		prfl->agregarMetodoPago(nuevo);
-		metodoSeleccionado = nuevo;
-	}
-
-	// Procesar pago usando clase Pago
-	Pago<double, string, Usuario<int, string>*> pago(prfl, carrito);
-	bool ok = pago.procesarPago(total);
-
-	if (!ok) {
-		cout << "Fallo al debitar el saldo.\n";
-		system("pause>0");
-		system("cls");
-		return;
-	}
-
-	// Vaciar carrito
-	carrito->vaciarCarrito();
-
-	cout << "Pago exitoso con metodo: " << metodoSeleccionado->getMetodoPago() << endl;
-	cout << "Nuevo saldo: S/. " << prfl->getSaldo() << endl;
-
-	// Opcional: generar voucher (si quieres usar Voucher)
-	// Voucher<string,int,float> v(fechaHora, id, *metodoSeleccionado);
-
-	system("pause>0");
-	system("cls");
+void mostrarMenuFiltros() {
+    cout << endl << "====== FILTRAR PRODUCTOS ======" << endl;
+    cout << "1. Filtrar por empresa" << endl;
+    cout << "2. Filtrar por tipo" << endl;
+    cout << "3. Filtrar por precio maximo" << endl;
+    cout << "4. Filtrar por calificacion minima" << endl;
+    cout << "5. Volver al menu principal" << endl;
+    cout << "===============================" << endl;
+    cout << "Seleccione una opcion: ";
 }
 
 int main() {
+    Proveedor<string, int>* proveedor1 = new Proveedor<string, int>("Juan Perez", "Cementos Lima", 1001);
+    Proveedor<string, int>* proveedor2 = new Proveedor<string, int>("Maria Garcia", "Aceros del Peru", 1002);
+    Proveedor<string, int>* proveedor3 = new Proveedor<string, int>("Carlos Ruiz", "Pinturas Total", 1003);
 
-	AjustarTamanioPantalla(50, 20); 
-	Usuario<int, string>* usuario = NULL;
-	Perfil<double, string, Usuario<int, string>*>* perfil = nullptr;
-	Inventory<string, int, double>* inventario = new Inventory<string, int, double>();
-	GenerarInventarioInicial(inventario);
-	while (1) {
-		switch (MenuPrincipal()) {
-			case 1:
-				IniciarSesion(usuario);
-				break;
-			case 2:
-				RegistrarUsuario(usuario, perfil);
-				perfil->getCarritoCompras()->setLst_Productos(inventario->getLst_Productos());
-				break;
-			case 3: 
-				VisualizarPerfil(perfil);
-				break;
-			case 4:
-				BuscarProductos(inventario);
-				system("cls");
-				break;
-			case 5:
-				system("cls");
-				inventario->mostrarProductos();
-				_getch();
-				system("cls");
-				break;
-			case 6:
-				//Añadir review
-				buscarProductoPorIDParaReview(inventario, perfil);
-				break;
-			case 7:
-				verReviews(perfil);
-				break;
-			case 8:
-				aniadirACarrito(perfil, inventario);
-				break;
-			case 9:
-				verCarrito(perfil);
-				break;
-			case 10:
-				comprarProductos(perfil);
-				break;
-			case 11:
-				return 0;
-				break;
-		}
-	}
+    Inventory<string, int, double>* inventario = new Inventory<string, int, double>();
 
-	system("pause>0");
-	return 0;
+    Producto<string, int, double>* prod1 = new Producto<string, int, double>(
+        1, "Cemento Portland Tipo I", "Cemento", "Cemento de alta calidad para construccion", 25.50, 100, proveedor1);
+    Producto<string, int, double>* prod2 = new Producto<string, int, double>(
+        2, "Varilla de Acero 3/8", "Acero", "Varilla corrugada de 3/8 pulgadas", 18.00, 200, proveedor2);
+    Producto<string, int, double>* prod3 = new Producto<string, int, double>(
+        3, "Pintura Latex Blanco", "Pintura", "Pintura latex lavable 5 galones", 89.90, 50, proveedor3);
+    Producto<string, int, double>* prod4 = new Producto<string, int, double>(
+        4, "Ladrillo King Kong", "Material", "Ladrillo de arcilla 18 huecos", 0.80, 5000, proveedor1);
+    Producto<string, int, double>* prod5 = new Producto<string, int, double>(
+        5, "Arena Gruesa", "Agregados", "Arena gruesa por metro cubico", 35.00, 80, proveedor1);
 
+    prod1->agregarReview(new Review<string, int, double>(5, 101, "Excelente cemento", "Pedro Lopez"));
+    prod1->agregarReview(new Review<string, int, double>(4, 102, "Buena calidad", "Ana Torres"));
+    prod2->agregarReview(new Review<string, int, double>(5, 103, "Muy resistente", "Luis Gomez"));
+    prod3->agregarReview(new Review<string, int, double>(3, 104, "Precio un poco alto", "Sofia Ramirez"));
+
+    inventario->agregarProducto(prod1);
+    inventario->agregarProducto(prod2);
+    inventario->agregarProducto(prod3);
+    inventario->agregarProducto(prod4);
+    inventario->agregarProducto(prod5);
+
+    Usuario<int, string>* usuario = new UsuarioBasico<int, string>(
+        1, "jgarcia", "jgarcia@email.com", "pass123", "Jose Garcia Mendoza", "12345678", "987654321");
+
+    Direccion* direccion = new Direccion("Av. Construccion", "123", "Lima", "Piso 2");
+
+    Perfil<double, string, int>* perfil = new Perfil<double, string, int>(usuario, direccion, 5000.00);
+
+    ShoppingCart<string, int, double>* carrito = new ShoppingCart<string, int, double>();
+
+    int opcionPrincipal = 0;
+    bool continuar = true;
+
+    while (continuar) {
+        limpiarPantalla();
+        mostrarMenuPrincipal();
+        cin >> opcionPrincipal;
+
+        switch (opcionPrincipal) {
+        case 1: {
+            int opcionProductos = 0;
+            while (opcionProductos != 4) {
+                limpiarPantalla();
+                mostrarMenuProductos();
+                cin >> opcionProductos;
+
+                switch (opcionProductos) {
+                case 1:
+                    limpiarPantalla();
+                    inventario->mostrarInventario();
+                    pausar();
+                    break;
+
+                case 2: {
+                    limpiarPantalla();
+                    int idProducto;
+                    cout << "Ingrese el ID del producto: ";
+                    cin >> idProducto;
+                    Producto<string, int, double>* prod = inventario->buscarProducto(idProducto);
+                    if (prod != nullptr) {
+                        prod->mostrarProducto();
+                        prod->mostrarReviews();
+                    }
+                    else {
+                        cout << "Producto no encontrado." << endl;
+                    }
+                    pausar();
+                    break;
+                }
+
+                case 3: {
+                    limpiarPantalla();
+                    int idProducto, calificacion, idUsuario;
+                    string contenido, hechoPor;
+                    cout << "Ingrese el ID del producto: ";
+                    cin >> idProducto;
+                    Producto<string, int, double>* prod = inventario->buscarProducto(idProducto);
+                    if (prod != nullptr) {
+                        cout << "Ingrese su nombre: ";
+                        cin.ignore();
+                        getline(cin, hechoPor);
+                        cout << "Ingrese su ID de usuario: ";
+                        cin >> idUsuario;
+                        cout << "Ingrese calificacion (1-5): ";
+                        cin >> calificacion;
+                        cout << "Ingrese su comentario: ";
+                        cin.ignore();
+                        getline(cin, contenido);
+
+                        Review<string, int, double>* nuevaReview =
+                            new Review<string, int, double>(calificacion, idUsuario, contenido, hechoPor);
+                        prod->agregarReview(nuevaReview);
+                        cout << "Review agregada exitosamente!" << endl;
+                    }
+                    else {
+                        cout << "Producto no encontrado." << endl;
+                    }
+                    pausar();
+                    break;
+                }
+
+                case 4:
+                    break;
+
+                default:
+                    cout << "Opcion invalida." << endl;
+                    pausar();
+                }
+            }
+            break;
+        }
+
+        case 2: {
+            int opcionCarrito = 0;
+            while (opcionCarrito != 6) {
+                limpiarPantalla();
+                mostrarMenuCarrito();
+                cin >> opcionCarrito;
+
+                switch (opcionCarrito) {
+                case 1:
+                    limpiarPantalla();
+                    carrito->mostrarCarrito();
+                    pausar();
+                    break;
+
+                case 2: {
+                    limpiarPantalla();
+                    inventario->mostrarInventario();
+                    int idProducto, cantidad;
+                    cout << endl << "Ingrese el ID del producto: ";
+                    cin >> idProducto;
+                    cout << "Ingrese la cantidad: ";
+                    cin >> cantidad;
+                    Producto<string, int, double>* prod = inventario->buscarProducto(idProducto);
+                    if (prod != nullptr) {
+                        carrito->agregarItem(prod, cantidad);
+                    }
+                    else {
+                        cout << "Producto no encontrado." << endl;
+                    }
+                    pausar();
+                    break;
+                }
+
+                case 3: {
+                    limpiarPantalla();
+                    carrito->mostrarCarrito();
+                    int idProducto;
+                    cout << endl << "Ingrese el ID del producto a eliminar: ";
+                    cin >> idProducto;
+                    carrito->eliminarItem(idProducto);
+                    pausar();
+                    break;
+                }
+
+                case 4: {
+                    limpiarPantalla();
+                    carrito->mostrarCarrito();
+                    int idProducto, nuevaCantidad;
+                    cout << endl << "Ingrese el ID del producto: ";
+                    cin >> idProducto;
+                    cout << "Ingrese la nueva cantidad: ";
+                    cin >> nuevaCantidad;
+                    carrito->modificarCantidad(idProducto, nuevaCantidad);
+                    pausar();
+                    break;
+                }
+
+                case 5:
+                    carrito->vaciarCarrito();
+                    pausar();
+                    break;
+
+                case 6:
+                    break;
+
+                default:
+                    cout << "Opcion invalida." << endl;
+                    pausar();
+                }
+            }
+            break;
+        }
+
+        case 3: {
+            limpiarPantalla();
+            carrito->mostrarCarrito();
+
+            if (carrito->getItems()->longitud() == 0) {
+                cout << "El carrito esta vacio. No se puede realizar la compra." << endl;
+                pausar();
+                break;
+            }
+
+            double total = carrito->calcularTotal();
+            cout << endl << "Total a pagar: S/." << total << endl;
+            cout << "Saldo disponible: S/." << perfil->getSaldo() << endl;
+
+            if (perfil->getSaldo() < total) {
+                cout << "Saldo insuficiente para realizar la compra." << endl;
+                pausar();
+                break;
+            }
+
+            char confirmar;
+            cout << "Desea confirmar la compra? (S/N): ";
+            cin >> confirmar;
+
+            if (confirmar == 'S' || confirmar == 's') {
+                Pago<double, string, int> pago(perfil, carrito);
+                if (pago.procesarPago(total)) {
+                    for (uint i = 0; i < carrito->getItems()->longitud(); i++) {
+                        ItemCarrito<string, int, double>* item = carrito->getItems()->obtenerPos(i);
+                        Producto<string, int, double>* prod = item->getProducto();
+                        prod->setStock(prod->getStock() - item->getCantidad());
+                    }
+
+                    cout << endl << "========================================" << endl;
+                    cout << "   COMPRA REALIZADA EXITOSAMENTE!" << endl;
+                    cout << "========================================" << endl;
+                    cout << "Nuevo saldo: S/." << perfil->getSaldo() << endl;
+
+                    carrito->vaciarCarrito();
+                }
+                else {
+                    cout << "Error al procesar el pago." << endl;
+                }
+            }
+            else {
+                cout << "Compra cancelada." << endl;
+            }
+            pausar();
+            break;
+        }
+
+        case 4:
+            limpiarPantalla();
+            perfil->mostrarPerfil();
+            pausar();
+            break;
+
+        case 5: {
+            int opcionFiltros = 0;
+            while (opcionFiltros != 5) {
+                limpiarPantalla();
+                mostrarMenuFiltros();
+                cin >> opcionFiltros;
+
+                FiltrosDeProductos<string, int, double> filtros;
+                filtros.setLst_Productos(inventario->getProductos());
+
+                switch (opcionFiltros) {
+                case 1: {
+                    limpiarPantalla();
+                    string empresa;
+                    cout << "Ingrese el nombre de la empresa: ";
+                    cin.ignore();
+                    getline(cin, empresa);
+                    filtros.filtrarPorEmpresa(empresa);
+                    pausar();
+                    break;
+                }
+
+                case 2: {
+                    limpiarPantalla();
+                    string tipo;
+                    cout << "Ingrese el tipo de producto: ";
+                    cin.ignore();
+                    getline(cin, tipo);
+                    filtros.filtrarPorTipo(tipo);
+                    pausar();
+                    break;
+                }
+
+                case 3: {
+                    limpiarPantalla();
+                    double precioMax;
+                    cout << "Ingrese el precio maximo: ";
+                    cin >> precioMax;
+                    filtros.filtrarPorPrecio(precioMax);
+                    pausar();
+                    break;
+                }
+
+                case 4: {
+                    limpiarPantalla();
+                    int calificacionMin;
+                    cout << "Ingrese la calificacion minima (1-5): ";
+                    cin >> calificacionMin;
+                    filtros.filtrarPorCalificacion(calificacionMin);
+                    pausar();
+                    break;
+                }
+
+                case 5:
+                    break;
+
+                default:
+                    cout << "Opcion invalida." << endl;
+                    pausar();
+                }
+            }
+            break;
+        }
+
+        case 6:
+            continuar = false;
+            cout << endl << "Gracias por usar el sistema. Hasta pronto!" << endl;
+            break;
+
+        default:
+            cout << "Opcion invalida. Intente nuevamente." << endl;
+            pausar();
+        }
+    }
+
+    delete proveedor1;
+    delete proveedor2;
+    delete proveedor3;
+    delete inventario;
+    delete usuario;
+    delete direccion;
+    delete perfil;
+    delete carrito;
+
+    return 0;
 }

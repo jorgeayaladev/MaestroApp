@@ -1,178 +1,99 @@
 #pragma once
+#include "NodoLista.h"
 
-#include <functional>
-
-using namespace std;
-
-typedef unsigned int uint;
-
-template <typename T, T NADA = 0>
+template <typename T>
 class ListaSimple {
-    struct Nodo;
-    typedef function<int(T, T)> Comp;
-
-    Nodo* ini;
-    uint lon; // número de elementos en la lista
-
-    Comp comparar; // lambda de criterio de comparación
+private:
+    NodoLista<T>* cabeza;
+    int tamanio;
 
 public:
-    ListaSimple() : ini(nullptr), lon(0), comparar([](T a, T b) {return a - b; }) {}
-    ListaSimple(Comp comparar) : ini(nullptr), lon(0), comparar(comparar) {}
+    ListaSimple();
     ~ListaSimple();
 
-    uint    longitud();
-
-    bool    esVacia();
-
-    void    agregaInicial(T elem);
-    void    agregaPos(T elem, uint pos);
-    void    agregaFinal(T elem);
-
-    void    modificarInicial(T elem);
-    void    modificarPos(T elem, uint pos);
-    void    modificarFinal(T elem);
-
-    void    eliminaInicial();
-    void    eliminaPos(uint pos);
-    void    eliminaFinal();
-
-    T       obtenerInicial();
-    T       obtenerPos(uint pos);
-    T       obtenerFinal();
-
-    T       buscar(T elem);
+    void agregar(T elemento);
+    void eliminar(int posicion);
+    T obtener(int posicion);
+    int getTamanio();
+    bool estaVacia();
+    void limpiar();
 };
 
-template <typename T, T NADA>
-struct ListaSimple<T, NADA>::Nodo {
-    T       elem;
-    Nodo* sig; // puntero apunta al siguiente nodo
-
-    Nodo(T elem = NADA, Nodo* sig = nullptr) : elem(elem), sig(sig) {}
-};
-
-template <typename T, T NADA>
-ListaSimple<T, NADA>::~ListaSimple() {
-    Nodo* aux = ini;
-    while (aux != nullptr) {
-        aux = ini;
-        ini = ini->sig;
-        delete aux;
-    }
+template <typename T>
+ListaSimple<T>::ListaSimple() {
+    cabeza = nullptr;
+    tamanio = 0;
 }
 
-template <typename T, T NADA>
-uint ListaSimple<T, NADA>::longitud() {
-    return lon;
+template <typename T>
+ListaSimple<T>::~ListaSimple() {
+    limpiar();
 }
 
-template <typename T, T NADA>
-bool ListaSimple<T, NADA>::esVacia() {
-    return lon == 0;
-}
-
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::agregaInicial(T elem) {
-    Nodo* nuevo = new Nodo(elem, ini);
-    if (nuevo != nullptr) {
-        ini = nuevo;
-        lon++;
-    }
-}
-
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::agregaPos(T elem, uint pos) {
-    if (pos > lon) return;
-    if (pos == 0) {
-        agregaInicial(elem);
+template <typename T>
+void ListaSimple<T>::agregar(T elemento) {
+    NodoLista<T>* nuevo = new NodoLista<T>(elemento);
+    if (cabeza == nullptr) {
+        cabeza = nuevo;
     }
     else {
-        Nodo* aux = ini;
-        for (int i = 1; i < pos; i++) {
-            aux = aux->sig;
+        NodoLista<T>* actual = cabeza;
+        while (actual->get_Sgte() != nullptr) {
+            actual = actual->get_Sgte();
         }
-        Nodo* nuevo = new Nodo(elem, aux->sig);
-        if (nuevo != nullptr) {
-            aux->sig = nuevo;
-            lon++;
-        }
+        actual->set_Sgte(nuevo);
     }
-}
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::agregaFinal(T elem) {
-    agregaPos(elem, lon); // ;)
+    tamanio++;
 }
 
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::modificarInicial(T elem) {
-    if (lon > 0) {
-        ini->elem = elem;
-    }
-}
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::modificarPos(T elem, uint pos) {
-    if (pos >= 0 && pos < lon) {
-        Nodo* aux = ini;
-        for (int i = 0; i < pos; i++) {
-            aux = aux->sig;
-        }
-        aux->elem = elem;
-    }
-}
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::modificarFinal(T elem) {
-    modificar(elem, lon - 1);
-}
+template <typename T>
+void ListaSimple<T>::eliminar(int posicion) {
+    if (posicion < 0 || posicion >= tamanio) return;
 
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::eliminaInicial() {
-    if (lon > 0) {
-        Nodo* aux = ini;
-        ini = ini->sig;
-        delete aux;
-        lon--;
-    }
-}
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::eliminaPos(uint pos) {
-
-}
-template <typename T, T NADA>
-void ListaSimple<T, NADA>::eliminaFinal() {
-
-}
-
-template <typename T, T NADA>
-T ListaSimple<T, NADA>::obtenerInicial() {
-    return obtenerPos(0);
-}
-template <typename T, T NADA>
-T ListaSimple<T, NADA>::obtenerPos(uint pos) {
-    if (pos >= 0 && pos < lon) {
-        Nodo* aux = ini;
-        for (int i = 0; i < pos; i++) {
-            aux = aux->sig;
-        }
-        return aux->elem;
+    if (posicion == 0) {
+        NodoLista<T>* temp = cabeza;
+        cabeza = cabeza->get_Sgte();
+        delete temp;
     }
     else {
-        return NADA;
+        NodoLista<T>* actual = cabeza;
+        for (int i = 0; i < posicion - 1; i++) {
+            actual = actual->get_Sgte();
+        }
+        NodoLista<T>* temp = actual->get_Sgte();
+        actual->set_Sgte(temp->get_Sgte());
+        delete temp;
     }
-}
-template <typename T, T NADA>
-T ListaSimple<T, NADA>::obtenerFinal() {
-    return obtenerPos(lon - 1);
+    tamanio--;
 }
 
-template <typename T, T NADA>
-T ListaSimple<T, NADA>::buscar(T elem) {
-    Nodo* aux = ini;
-    while (aux != nullptr) {
-        if (comparar(aux->elem, elem) == 0) {
-            return aux->elem;
-        }
-        aux = aux->sig;
+template <typename T>
+T ListaSimple<T>::obtener(int posicion) {
+    if (posicion < 0 || posicion >= tamanio) return T();
+
+    NodoLista<T>* actual = cabeza;
+    for (int i = 0; i < posicion; i++) {
+        actual = actual->get_Sgte();
     }
-    return NADA;
+    return actual->get_Elem();
+}
+
+template <typename T>
+int ListaSimple<T>::getTamanio() {
+    return tamanio;
+}
+
+template <typename T>
+bool ListaSimple<T>::estaVacia() {
+    return tamanio == 0;
+}
+
+template <typename T>
+void ListaSimple<T>::limpiar() {
+    while (cabeza != nullptr) {
+        NodoLista<T>* temp = cabeza;
+        cabeza = cabeza->get_Sgte();
+        delete temp;
+    }
+    tamanio = 0;
 }
