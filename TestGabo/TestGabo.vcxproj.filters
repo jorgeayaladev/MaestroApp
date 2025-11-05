@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Usuario">
+      <UniqueIdentifier>{6fbee021-e8bc-427a-b9cb-15478af42d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Listas">
+      <UniqueIdentifier>{1e533e7c-a469-4690-8949-a154ff725ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Producto">
+      <UniqueIdentifier>{e7ec47ee-15b5-4c82-b703-a39cf4af1deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Pago">
+      <UniqueIdentifier>{fa11768a-5bd5-4143-bf51-5d0235b73b3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Usuario.h">
+      <Filter>Archivos de encabezado\Usuario</Filter>
+    </ClInclude>
+    <ClInclude Include="UsuariosHerencia.h">
+      <Filter>Archivos de encabezado\Usuario</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoLista.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Perfil.h">
+      <Filter>Archivos de encabezado\Usuario</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltrosDeProductos.h">
+      <Filter>Archivos de encabezado\Producto</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryYCarrito.h">
+      <Filter>Archivos de encabezado\Producto</Filter>
+    </ClInclude>
+    <ClInclude Include="Producto.h">
+      <Filter>Archivos de encabezado\Producto</Filter>
+    </ClInclude>
+    <ClInclude Include="Proveedor.h">
+      <Filter>Archivos de encabezado\Producto</Filter>
+    </ClInclude>
+    <ClInclude Include="Review.h">
+      <Filter>Archivos de encabezado\Producto</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaSimple.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="MetodoPago.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="Pago.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="Voucher.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="DetalleBoleta.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="DetalleFactura.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="Boleta.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="Factura.h">
+      <Filter>Archivos de encabezado\Pago</Filter>
+    </ClInclude>
+    <ClInclude Include="Direccion.h">
+      <Filter>Archivos de encabezado\Usuario</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

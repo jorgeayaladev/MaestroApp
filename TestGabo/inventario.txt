@@ -1,0 +1,3430 @@
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 513
+Nombre: Cemento Sol
+Tipo: Construccion y ferreteria
+Color: Gris
+Material: Cemento
+Codigo de Tienda: T001
+Stock: 50
+Alto (m): 0.3
+Ancho (m): 0.2
+Precio (m): 25
+¿Descuento Activo?: 1
+Descuento en porcentaje: 10
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 515
+Nombre: Pintura Viniltex
+Tipo: Decohogar
+Color: Blanco
+Material: Vinilo
+Codigo de Tienda: T003
+Stock: 200
+Alto (m): 3.5
+Ancho (m): 0.3
+Precio (m): 75
+¿Descuento Activo?: 1
+Descuento en porcentaje: 15
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 516
+Nombre: Ladrillo Rojo
+Tipo: Jardin y terraza
+Color: Rojo
+Material: Arcilla
+Codigo de Tienda: T005
+Stock: 500
+Alto (m): 0.2
+Ancho (m): 0.1
+Precio (m): 3
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 517
+Nombre: Madera Triplay
+Tipo: Muebles y organizacion
+Color: Marron
+Material: Madera
+Codigo de Tienda: T002
+Stock: 150
+Alto (m): 2.5
+Ancho (m): 1.2
+Precio (m): 120
+¿Descuento Activo?: 1
+Descuento en porcentaje: 5
+
+=================PRODUCTO REGISTRADO=================
+Proovedor: Juan Perez
+Empresa: Constructora de las Casas
+ID Trabajador: 1001
+ID producto: 518
+Nombre: Hierro Corrugado
+Tipo: Tecnologia
+Color: Gris
+Material: Hierro
+Codigo de Tienda: T004
+Stock: 300
+Alto (m): 6
+Ancho (m): 0.02
+Precio (m): 50
+¿Descuento Activo?: 0
+=================PRODUCTO REGISTRADO=================
+Proovedor: Luis Gomez
+Empresa: Materiales S.A.
+ID Trabajador: 9065
+ID producto: 519
+Nombre: Yeso Laminado
+Tipo: Utiles de aseo y limpieza
+Color: Blanco
+Material: Yeso
+Codigo de Tienda: T006
+Stock: 80
+Alto (m): 2.4
+Ancho (m): 1.2
+Precio (m): 40
+¿Descuento Activo?: 1
+Descuento en porcentaje: 20
+

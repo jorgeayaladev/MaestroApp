@@ -1,0 +1,24 @@
+Tipo: Personal
+Nickname: S
+Email: S
+Contraseña: S
+Nombre Completo: S
+DNI: S
+Telefono: S
+--------------------------
+Tipo: Personal
+Nickname: S
+Email: S
+Contraseña: S
+Nombre Completo: S
+DNI: S
+Telefono: S
+--------------------------
+Tipo: Personal
+Nickname: S
+Email: S
+Contraseña: S
+Nombre Completo: S
+DNI: S
+Telefono: S
+--------------------------
